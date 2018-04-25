@@ -18,5 +18,5 @@ function deepestChild() {
   for(let i = 0; i < parent.length; i++) {
     children.push(document.querySelectorAll('div#grand-node').toString());
   }
-  return children.length -1;
+  return children.pop()
 }
